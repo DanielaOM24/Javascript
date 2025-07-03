@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Lista de Tareas</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    input, button { padding: 8px; margin: 5px; }
-    .tarea { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Lista de Tareas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input,
+        button {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        .task {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
 
-  <h1> Mi lista de tareas</h1>
+    <h1>My Task List</h1>
 
-  <form id="form">
-    <input type="text" id="title" placeholder="Titulo de la tarea..." required>
-    <input type="text" id="description" placeholder="Escribe una tarea..." required>
-    <button type="submit">Agregar</button>
+    <form id="task-form">
+        <input type="text" id="title" placeholder="Task title..." required>
+        <input type="text" id="description" placeholder="Description..." required>
+        <button type="submit">Add Task</button>
+    </form>
 
-  </form>
+    <div id="task-list">
+        <!-- Tasks will appear here -->
+    </div>
 
-  <div id="tareas">
-    <!-- Las tareas aparecerán aquí -->
-  </div>
-
-  <script src="./task.js">
-
-  </script>
-
+    <script src="./task.js"></script>
 </body>
+
 </html>
