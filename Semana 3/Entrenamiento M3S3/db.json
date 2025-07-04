@@ -1,0 +1,69 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "comedor",
+      "precio": 1500000
+    },
+    {
+      "id": "2",
+      "nombre": "mueble nube",
+      "precio": 2200000
+    },
+    {
+      "id": "4",
+      "nombre": "repisa tv",
+      "precio": 900000
+    },
+    {
+      "id": "5",
+      "nombre": "cama ",
+      "precio": 1800000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    },
+    {
+      "id": 6,
+      "nombre": "tocador",
+      "precio": 1200000
+    }
+  ]
+}
