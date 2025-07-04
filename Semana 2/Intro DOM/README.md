@@ -68,9 +68,9 @@ document.getElementById("milista").innerHTML=listaHTML.join('');
 #### Dado un objeto persona con nombre, edad y ocupación, construye un string en formato HTML para mostrar esa información como una tarjeta.
 ```js
 let persona = {
-    nombre: "Juan",
-    edad: 20,
-    ocupacion: "Programador",
+    nombre: "Daniela",
+    edad: 24,
+    ocupacion: "Programadora",
 }
 
 const TarjetaPersonaHTML = `
@@ -102,10 +102,10 @@ contenedor.innerHTML = `
 const contenedor = document.getElementById("info-producto");
 
 let producto = {
-    nombre: "Playera",
-    precio: 100,
+    nombre: "Shampoo",
+    precio: 45,
     stock: 10,
-    marca: "Nike",
+    marca: "Milagros",
 }
 
 const lista = document.createElement("ul");
@@ -123,10 +123,10 @@ contenedor.appendChild(lista);
 #### Recorre un array de usuarios (con nombre y correo) y crea un array de etiquetas <div> que incluyan esa información formateada como tarjeta de contacto.
 ```js
 const usuarios = [
-    { nombre: "Juan Perez", correo: "juanperez@gmail.com" },
-    { nombre: "Maria Lopez", correo: "marialopez@gmail.com" },
-    { nombre: "Pedro Gomez", correo: "pedrogomez@gmail.com" },
-    { nombre: "Ana Martinez", correo: "anamartinez@gmail.com" },
+    { nombre: "Carlos Perez", correo: "Carlosperez@gmail.com" },
+    { nombre: "Mariana Gomez", correo: "marianagmz@gmail.com" },
+    { nombre: "Martin Pulgarin", correo: "Martinpo@gmail.com" },
+
 ];
 
 const lista = usuarios.map(usuario => {
@@ -148,7 +148,7 @@ lista.forEach(div => {
 ```js
 
 const libros = [
-    { titulo: "Cien años de soledad", autor: "Gabriel García Márquez", año: 1967 },
+    { titulo: "", autor: "Gabriel García Márquez", año: 1967 },
     { titulo: "1984", autor: "George Orwell", año: 1949 },
     { titulo: "El Principito", autor: "Antoine de Saint-Exupéry", año: 1943 },
   ];
