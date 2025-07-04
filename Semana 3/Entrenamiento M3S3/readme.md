@@ -13,7 +13,7 @@ Aprender a:
 
 ##  Tecnologías usadas
 
-- JavaScript (Vanilla)
+- JavaScript 
 - JSON Server
 - Node.js
 
