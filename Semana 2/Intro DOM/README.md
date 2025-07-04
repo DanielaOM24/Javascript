@@ -148,7 +148,7 @@ lista.forEach(div => {
 ```js
 
 const libros = [
-    { titulo: "", autor: "Gabriel García Márquez", año: 1967 },
+    { titulo: "Cien años de soledad", autor: "Gabriel García Márquez", año: 1967 },
     { titulo: "1984", autor: "George Orwell", año: 1949 },
     { titulo: "El Principito", autor: "Antoine de Saint-Exupéry", año: 1943 },
   ];
