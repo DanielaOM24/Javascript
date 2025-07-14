@@ -52,6 +52,17 @@ const routes = {
   "/register": "./pages/register.html",
   "/events": "./pages/events.html"
 };
+```
+
+##  Instalación para pruebas locales
+copiar en la terminal codigo
+npm install -D vite
+npm run dev 
+
+luego abrir otra pestaña de terminal para correr el json 
+
+json-server --watch db.json que es el nombre del archivo json
+
 
 
 
