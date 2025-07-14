@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "1234567890",
+      "enrollNumber": "98765432100000",
+      "dateOfReserva": ""
+    },
+    {
+      "id": "1",
+      "name": "Sebastian",
+      "email": "mazoosebas@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "phone": "1234567890",
+      "enrollNumber": "98765432100000",
+      "dateOfReserva": "01-Jan-2020"
+    }
+]}
+    

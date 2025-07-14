@@ -1,79 +1,47 @@
-{
-  "users": [
+
+  {
+    "users": [
+      {
+        "id": "3",
+        "name": "daniela",
+        "age": "25",
+        "email": "daniela@polla.com",
+        "password": "pollammi",
+        "role": "user",
+        "phone": "1234567890",
+        "enrollNumber": "98765432100000",
+        "dateOfAdmission": "01-Jan-2020"
+      },
+      {
+        "id": "4",
+        "name": "cristian",
+        "age": "45",
+        "email": "qwer@gmail.com",
+        "password": "qwer",
+        "role": "user",
+        "phone": "1234567890",
+        "enrollNumber": "98765432100000",
+        "dateOfAdmission": "01-Jan-2020"
+      },
+      {
+        "id": "5",
+        "name": "sebas",
+        "age": "1",
+        "email": "sebas@gmail.com",
+        "password": "sebas",
+        "role": "user",
+        "phone": "1234567890",
+        "enrollNumber": "98765432100000",
+        "dateOfAdmission": "01-Jan-2020"
+      }
+    ],
+    "reserva": [
     {
       "id": "1",
-      "name": "Admin",
-      "email": "admin@admin.com",
-      "password": "admin123",
-      "age": "10",
-      "role": "admin",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    },
-    {
-      "id": "1",
-      "name": "Sebastian",
-      "age": "15",
-      "email": "mazoosebas@gmail.com",
-      "password": "123456789",
-      "role": "user",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    },
-    {
-      "id": "2",
-      "name": " Susana",
-      "age": "26",
-      "email": "susi@gmail.com",
-      "password": "12348",
-      "role": "user",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    },
-    {
-      "id": "3",
-      "name": "daniela",
-      "age": "25",
-      "email": "daniela@polla.com",
-      "password": "pollammi",
-      "role": "user",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    },
-    {
-      "id": "4",
-      "name": "cristian",
-      "age": "45",
-      "email": "qwer@gmail.com",
-      "password": "qwer",
-      "role": "user",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    },
-    {
-      "id": "5",
-      "name": "sebas",
-      "age": "1",
-      "email": "sebas@gmail.com",
-      "password": "sebas",
-      "role": "user",
-      "phone": "1234567890",
-      "enrollNumber": "98765432100000",
-      "dateOfAdmission": "01-Jan-2020"
-    }
-  ],
-  "courses": [
-    {
-      "id": "1",
-      "title": "Introducción a JavaScript",
-      "description": "Curso básico de JavaScript",
+      "title": "Event",
+      "description": "grados",
       "startDate": "10-Jul-2025",
-      "duration": "4 semanas"
+      "duration": "4 horas"
     }
   ],
   "enrollments": [
