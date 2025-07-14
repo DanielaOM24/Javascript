@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <title>Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    
+    <nav>
+        <div class="icons">
+            <i class="fa-solid fa-user"></i>
+            <p class="more">+</p>
+        </div>
+
+        <div class="navegator">
+            <a href="/home" data-link>Home</a>
+            <a href="/Reserve" data-link>Reserve</a>
+            <a href="/Events" data-link>Events</a>
+            <a href="/dashboard" data-link>Admin</a>
+        </div>
+
+
+        <div id="UserLog" class="contenedorUserRegister">
+           <button class="sesions"> <a  href="/login" data-link>Login</a></button>
+           <button class="sesion"><a  href="/register" data-link>Sing up</a></button>
+            <a href="/events"><button class="sesion1">Reserve</button></a>
+            
+        </div>
+    </nav>
+
+    <div id="content"></div>
+    <script type="module" src="/scripts/script.js"></script>
+</body>
+</html>

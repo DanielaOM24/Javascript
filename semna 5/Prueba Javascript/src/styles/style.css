@@ -1,0 +1,89 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.navegator{
+    display: flex;
+    gap: 20px;
+    transition: ease 0.3s;
+}
+
+.navegator a{
+    font-size: 18px ;
+}
+.navegator a:hover{
+     transform: scale(1.05);
+}
+.contenedorUserRegister {
+    display: flex;
+    gap: 20px;
+}
+
+.sesions {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: ease 0.3s;
+}
+.sesions:hover{
+    background-color: rgb(166, 103, 238);
+    transform: scale(1.05);
+    border: none;
+}
+
+.sesion {
+    background-color: rgb(166, 103, 238);
+    padding: 5px 10px 5px;
+    border:none;
+    border-radius: 20px;
+    transition: ease 0.3s;
+}
+.sesion:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+.sesion1 {
+    background-color: rgb(166, 103, 238);
+    padding: 5px 10px 5px;
+    border:none;
+    border-radius: 20px;
+    transition: ease 0.3s;
+}
+.sesion1:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 18px
+}
+.more{
+    background-color: rgb(145, 134, 114);
+    padding: 3px 8px 3px;
+    border-radius: 5px;
+}
+
+
+body{
+    background-color: rgb(211, 211, 211);
+}

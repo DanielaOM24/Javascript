@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "1234567890"
+      
+    },
+    {
+      "id": "1",
+      "name": "Sebastian",
+      "email": "sebas@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "phone": "1234567890"
+      
+    }
+     
+  ],
+  "Events": [
+    {
+      "id": "1",
+      "title": "Reservation",
+      "description": "graduation",
+      "date": "10-Jul-2025",
+      "hour": "10:00"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 2,
+      "courseId": 1
+    }
+  ]
+}
